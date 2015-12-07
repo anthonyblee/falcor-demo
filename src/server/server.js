@@ -268,12 +268,12 @@ app.use(express.static(path.join(__dirname, '../../site')))
 app.set('views', 'src/server/views');
 app.set('view engine', 'jade');
 
-app.listen(3000, err => {
+app.listen(3030, err => {
   if (err) {
     console.error(err)
     return
   }
-  console.log('navigate to http://localhost:3000')
+  console.log('navigate to http://localhost:3030')
 });
 
 
